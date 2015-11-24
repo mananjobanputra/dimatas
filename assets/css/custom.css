@@ -1,0 +1,47 @@
+/* here you can put your own css to customize and override the theme */
+label.error {
+  color: #F00;
+  left: 0;
+  top: -6px;
+  font-size: 14px;
+  position: relative;
+  text-align: left;
+  margin-top: 10px;
+  width: 100%;
+  font-weight: 300;
+}
+.table .btn.yadcf-filter-reset-button {
+	margin-left: 5px;
+}
+.yadcf-filter{
+	display: inline-block;
+	width: 85%;
+}
+.break_word{
+  word-wrap: break-word;
+}
+.width_set{
+  width:100%;
+}
+.md-checkbox.has-error label a{
+  color: #fbe1e3;
+}
+.form-group.readonly .input-group-addon{
+      border-bottom: 1px dashed #c2cad8!important;
+}
+
+.form-group.form-md-line-input.has-error .form-control:focus:not([readonly])~label:after{
+  background: #e73d4a!important;
+}
+.form-group.form-md-line-input.has-error .form-control:focus:not([readonly])~.help-block,.form-group.form-md-line-input.has-error .form-control:focus:not([readonly])~label
+{
+  color: #e73d4a!important;
+}
+.md-checkbox input[type=checkbox]:focus~label>.box
+{
+  border: 2px solid #3fc9d5;
+}
+.prevue-btn:hover,.prevue-btn:focus{
+  color: #333!important;
+  cursor: pointer!important;
+}
